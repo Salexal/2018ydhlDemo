@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+   <FrameLayout
+       android:id="@+id/fragment"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+   </FrameLayout>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:orientation="vertical"
+        android:layout_width="400dp"
+        android:layout_height="match_parent">
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/my_account"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="我的账户" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="红绿灯管理"-->
+            <!--android:clickable="true"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="24sp"-->
+            <!--android:id="@+id/traffic_light_management"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/prepaid_record_manger"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="充值记录" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/environmental_indicators"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="环境指标" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/threshold"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="阈值管理" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/travel"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="出行管理" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/account_managment"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="账户管理" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/account_light_sort_admin"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="红路灯管理(admin)" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/analysis_illegal"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="数据分析" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/mine_account_1"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="账户管理" />-->
+
+        <!--<TextView-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/mine_account_set"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:textSize="24sp"-->
+        <!--android:clickable="true"-->
+        <!--android:text="账户设置" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/life_assis"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="生活助手" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/traffic_query_fragment"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="路况查询" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/twoChart"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="数据分析" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/life_en"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="生活助手" />-->
+
+        <!--<TextView-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:id="@+id/bus_query"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:textSize="24sp"-->
+            <!--android:clickable="true"-->
+            <!--android:text="公交查询" />-->
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/etc_line_msg"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="高速路况" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/etc_home"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="高速ETC" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tourism_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="旅游信息" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/weather_msg"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="天气信息" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/qc_code_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="二维码支付" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/custom_bus_p"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="定制班车" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/news_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="新闻显示" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ic_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="IC卡充值" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/ic_query_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="IC卡查询" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/car_park_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="停车场" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/charge_car_page"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="小车充值" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/zhuce"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="我的座驾" />
+
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

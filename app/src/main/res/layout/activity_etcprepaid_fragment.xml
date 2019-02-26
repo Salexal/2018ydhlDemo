@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ETC.ETCPrepaidFragment">
+
+    <include layout="@layout/title_etc_prepaid" />
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            android:text="充值合计:   "
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/etc_total_money"
+            android:textStyle="bold"
+            android:textSize="60sp"
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/etc_list_view"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="600dp"
+        android:layout_height="700dp"></ListView>
+
+</LinearLayout>

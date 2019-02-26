@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.TrafficQueryFragment">
+
+    <include layout="@layout/title_traffic_query"/>
+
+    <TextView
+
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="户外空气指数"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="PM2.5:"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/traffic_query_pm25"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="温    度:"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/traffic_query_temperature"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="湿    度:"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/traffic_query_humidity"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_marginTop="400dp"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" >
+
+           <TextView
+               android:text="一号道路："
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/traffic_query_line1"
+               android:text="通畅"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" >
+
+           <TextView
+               android:text="二号道路："
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/traffic_query_line2"
+               android:text="通畅"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" >
+
+           <TextView
+               android:text="三号道路："
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:id="@+id/traffic_query_line3"
+               android:text="通畅"
+               android:textSize="20sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content" />
+       </LinearLayout>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/traffic_query_line1_color"
+            android:background="#0ebd12"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/traffic_query_line2_color"
+            android:background="#0ebd12"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/traffic_query_line3_color"
+            android:background="#0ebd12"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>

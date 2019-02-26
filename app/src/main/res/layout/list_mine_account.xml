@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="100dp">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/account_car_num"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/account_car_balance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <!--<CheckBox-->
+        <!--android:focusableInTouchMode="false"-->
+        <!--android:clickable="false"-->
+        <!--android:focusable="false"-->
+        <!--android:gravity="center"-->
+        <!--android:id="@+id/account_checkbox"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1" />-->
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/boed1"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btn_car_top_up"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+ />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_title"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+
+    <LinearLayout
+        android:background="@drawable/borders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:src="@drawable/backback"
+            android:id="@+id/registered_internet"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textStyle="bold" />
+            <!--android:text="网络设置"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="18sp"-->
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="120dp"
+            android:text="用户注册"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

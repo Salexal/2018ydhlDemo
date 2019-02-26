@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.AccountManagementFragment">
+
+    <include layout="@layout/title_account_managment"/>
+
+    <LinearLayout
+        android:background="@drawable/listview_xian"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="车辆编号"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_height="67dp" />
+
+        <TextView
+            android:text="账户余额"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_height="67dp" />
+
+        <TextView
+            android:text="选项"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:layout_height="67dp" />
+        <TextView
+            android:text="操作"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:layout_height="67dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/listView_account_car"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_ic_num"
+        android:gravity="center"
+        android:text="收费金额"
+        android:textSize="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/item_car_num"
+        android:gravity="center"
+        android:text="收费金额"
+        android:textSize="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:id="@+id/item_name"
+        android:gravity="center"
+        android:text="收费金额"
+        android:textSize="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/item_start_time"
+        android:gravity="center"
+        android:text="收费金额"
+        android:textSize="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/item_end_time"
+        android:gravity="center"
+        android:text="收费金额"
+        android:textSize="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/item_money"
+        android:gravity="center"
+        android:text="收费金额"
+        android:textSize="30dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

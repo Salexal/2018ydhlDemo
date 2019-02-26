@@ -1,0 +1,74 @@
+{
+  "recharge": [
+    {
+      "id": "1",
+      "Balance": "2010"
+    },
+    {
+      "id": "2",
+      "Balance": "2098"
+    },
+    {
+      "id": "3",
+      "Balance": "2106"
+    }
+  ],
+  "haveCar": [
+    {
+      "id": "4",
+      "License": "辽A10001",
+      "owner": "张三",
+      "Balance": "1178"
+    },
+    {
+      "id": "5",
+      "License": "辽A10002",
+      "owner": "李四",
+      "Balance": "1723"
+    },
+    {
+      "id": "6",
+      "License": "辽A10003",
+      "owner": "王五",
+      "Balance": "962"
+    },
+    {
+      "id": "7",
+      "License": "辽A10004",
+      "owner": "赵六",
+      "Balance": "1503"
+    }
+  ],
+  "trafficLight": [
+    {
+      "id": "8",
+      "lightId": "1",
+      "redLight": "2",
+      "yellowLight": "2",
+      "greenLight": "2"
+    },
+    {
+      "id": "9",
+      "lightId": "2",
+      "redLight": "44",
+      "yellowLight": "44",
+      "greenLight": "44"
+    },
+    {
+      "id": "10",
+      "lightId": "3",
+      "redLight": "44",
+      "yellowLight": "44",
+      "greenLight": "44"
+    }
+  ],
+  "prepaidRecords": [
+    {
+      "recordId": "1",
+      "carId": "2",
+      "money": "200",
+      "theOperator": "admin",
+      "recordTime": "2019.1.24 18:00"
+    }
+  ]
+}

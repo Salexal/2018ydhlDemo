@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.EnvironmentalIndicatorsFragment">
+
+
+    <include layout="@layout/title_environmenttal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/temperature_color"
+            android:layout_marginLeft="40dp"
+            android:background="#0f0"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="98dp"
+                android:text="温度"
+                android:textSize="30sp" />
+
+            <Button
+                android:text="0"
+                android:id="@+id/temperature"
+                android:background="@drawable/btn_circle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/humidity_color"
+            android:layout_marginLeft="40dp"
+            android:background="#0f0"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="98dp"
+                android:text="湿度"
+                android:textSize="30sp" />
+
+            <Button
+                android:text="0"
+                android:id="@+id/humidity"
+                android:background="@drawable/btn_circle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/light_color"
+            android:layout_marginLeft="40dp"
+            android:background="#0f0"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="98dp"
+                android:text="光照"
+                android:textSize="30sp" />
+
+            <Button
+                android:text="0"
+                android:id="@+id/value_light"
+                android:background="@drawable/btn_circle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/co2_color"
+            android:layout_marginLeft="40dp"
+            android:background="#0f0"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="98dp"
+                android:text="CO2"
+                android:textSize="30sp" />
+
+            <Button
+                android:text="0"
+                android:id="@+id/co2"
+                android:background="@drawable/btn_circle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pm25_value"
+            android:layout_marginLeft="40dp"
+            android:background="#0f0"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="98dp"
+                android:text="温度"
+                android:textSize="30sp" />
+
+            <Button
+                android:text="0"
+                android:id="@+id/pm25"
+                android:background="@drawable/btn_circle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="40dp"
+            android:background="#0f0"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="91dp"
+                android:layout_height="98dp"
+                android:text="道路"
+                android:textSize="30sp" />
+
+            <Button
+                android:text="1"
+
+                android:background="@drawable/btn_circle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

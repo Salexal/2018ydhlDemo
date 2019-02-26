@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginUser.FindAccount">
+
+    <include layout="@layout/title_find_account" />
+
+    <TextView
+        android:layout_width="13dp"
+        android:layout_height="106dp" />
+
+    <EditText
+        android:background="@drawable/borders"
+        android:id="@+id/registered_account"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLines="1"
+        android:inputType="text"
+        android:hint="请输入用户名" />
+
+
+    <EditText
+        android:background="@drawable/borders"
+        android:id="@+id/registered_password_again"
+        android:inputType="textPassword"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:hint="请输入邮箱" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_registered_cancel"-->
+        <!--android:layout_width="105dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="取消" />-->
+
+        <Button
+            android:id="@+id/btn_find_account_click"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="找回" />
+    </LinearLayout>
+</LinearLayout>
